@@ -115,7 +115,7 @@ bool Register(FILE *fptr, char *userbuff[])
 void LoginSuccess(FILE *fptr, char *userbuff[])
 {
     int Choice;
-    printf("1.) Change Password\n2.) Delete Account\n3.) Exit\nOption: ");
+    printf("1.) Change Password\n2.) Delete Account\n3.) End Session\nOption: ");
     scanf("%d", &Choice);
 
     switch (Choice)
